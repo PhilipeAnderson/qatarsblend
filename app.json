@@ -1,0 +1,12 @@
+{
+  "name": "qatarsblend",
+  "displayName": "qatarsblend",
+  "expo": {
+    "name": "qatarsblend",
+    "slug": "qatarsblend",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
