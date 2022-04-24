@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Container, Title } from './styles';
 
-export const Home = () => {
+export const Login = () => {
   return (
     <Container>
-      <Title> Hy Home </Title>
+      <Title> Hy Login </Title>
     </Container>
   );
 };
