@@ -4,7 +4,7 @@ import { RFValue } from 'react-native-responsive-fontsize';
 
 import Logo from '../../assets/logo.svg';
 
-import { Container, Header, TotalCars } from './styles';
+import { Container, Header, TotalCars, HeaderContent } from './styles';
 
 export const Home = () => {
   return (
@@ -15,13 +15,15 @@ export const Home = () => {
         translucent
       />
       <Header> 
+        <HeaderContent>
         <Logo 
           width={RFValue(108)}
           height={RFValue(12)}
         />
         <TotalCars>
-          Total de 12 Carros
+          Total 12 Cars
         </TotalCars>
+        </HeaderContent>
       </Header>
     </Container>
   );
