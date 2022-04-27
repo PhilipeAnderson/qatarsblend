@@ -5,10 +5,15 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: ${({ theme}) => theme.colors.backgroundPrimary};
 `;
 
-export const Title = styled.Text`
-  color: ${({ theme }) => theme.colors.main};
-  font-size: ${RFValue(26)}px;
+export const Header = styled.View`
+  width: 100%;
+  height: 113px;
+  background-color: ${({ theme }) => theme.colors.header};
+`;
+
+export const TotalCars = styled.Text`
+  color: ${({ theme }) =>  theme.colors.shape}
 `;

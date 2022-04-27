@@ -1,11 +1,28 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
 
-import { Container, Title } from './styles';
+import Logo from '../../assets/logo.svg';
+
+import { Container, Header, TotalCars } from './styles';
 
 export const Home = () => {
   return (
     <Container>
-      <Title> Hy Home </Title>
+      <StatusBar 
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <Header> 
+        <Logo 
+          width={RFValue(108)}
+          height={RFValue(12)}
+        />
+        <TotalCars>
+          Total de 12 Carros
+        </TotalCars>
+      </Header>
     </Container>
   );
 };
