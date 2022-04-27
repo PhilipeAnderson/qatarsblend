@@ -1,11 +1,21 @@
 import React from 'react';
+import { RFValue } from 'react-native-responsive-fontsize';
 
-import { Container, Title } from './styles';
+import LogoSplash from '../../assets/qatar/logoQatarWorldCup.svg';
+
+import { Container, LogoSplashQatar, TextSplash } from './styles';
 
 export const Splash = () => {
   return (
     <Container>
-      <Title> Hy Splash </Title>
+      <LogoSplashQatar>
+        <LogoSplash 
+          width={RFValue(200)}
+        />
+      </LogoSplashQatar>
+      <TextSplash>
+        Your Luxury Car {'\n'}IN Qatar'S {'\n'}World Cup
+      </TextSplash>
     </Container>
   );
 };
