@@ -8,11 +8,12 @@ import theme from './src/styles/theme';
 
 import { Home } from './src/screens/Home';
 import { Login } from './src/screens/Login';
+import { Splash } from './src/screens/Splash';
 
 export default function App() { 
   return(
     <ThemeProvider theme={ theme } >
-      <Home />
+      <Splash />
     </ThemeProvider>
   );
 }
