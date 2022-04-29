@@ -16,28 +16,27 @@ export const Container = styled.View`
 
 export const ContentInfo = styled.View`
   width: 150px;
-  height: 150px;
-  background-color: red;
+  height: 100px;
 `;
 
 export const Brand = styled.Text`
-  color: #FFFFFF;
-  font-size: 26px;
+  color: ${({ theme }) => theme.colors.textDetail};
+  font-size: 18px;
 `;
 
 export const Name = styled.Text`
-  color: #FFFFFF;
-  font-size: 26px;
+  color: ${({ theme }) => theme.colors.title};
+  font-size: 22px;
 `;
 
 export const Daily = styled.Text`
-  color: #FFFFFF;
-  font-size: 26px;
+  color: ${({ theme }) => theme.colors.textDetail};
+  font-size: 14px;
 `;
 
 export const Value = styled.Text`
-  color: #FFFFFF;
-  font-size: 26px;
+  color: ${({ theme }) => theme.colors.main};
+  font-size: 20px;
 `;
 
 export const ContentCar = styled.View`
