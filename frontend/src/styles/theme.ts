@@ -4,7 +4,7 @@ export default {
 
     backgroundPrimary: '#F4F5F6',
     backgroundSecondary: '#FFFFFF',
-    backgroundSpecial: '#040404',
+    backgroundSpecial: '#1B1B1F',
 
     text: '#7A7A80',
     textDetail: '#AEAEB3',

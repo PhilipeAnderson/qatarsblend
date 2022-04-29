@@ -13,7 +13,7 @@ import { Splash } from './src/screens/Splash';
 export default function App() { 
   return(
     <ThemeProvider theme={ theme } >
-      <Splash />
+      <Home />
     </ThemeProvider>
   );
 }
