@@ -8,19 +8,35 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   width: 100%;
-  height: 113px;
-  background-color: ${({ theme }) => theme.colors.header};
+  height: 140px;
+  background-color: ${({ theme }) => theme.colors.main};
   justify-content: flex-end;
   padding: 32px 24px;
 `;
 
+export const UserData = styled.View`
+  width: 33%;
+  height: 100px;
+  background-color: yellow;
+`;
+
+export const UserPic = styled.Image`
+
+`;
+
+export const UserName = styled.Text`
+  color: #fff;
+  font-size: 22px;
+`;
+
+
 export const HeaderContent = styled.View`
-  flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 `;
 
 export const TotalCars = styled.Text`
   font-size: ${RFValue(15)}px;
+  margin-top: 25px;
   color: ${({ theme }) =>  theme.colors.shape}
 `;

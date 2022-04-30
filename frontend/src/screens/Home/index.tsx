@@ -5,7 +5,16 @@ import { RFValue } from 'react-native-responsive-fontsize';
 import Logo from '../../assets/logo.svg';
 import { Card } from '../../components/Card';
 
-import { Container, Header, TotalCars, HeaderContent } from './styles';
+import { 
+  Container, 
+  Header, 
+  UserData,
+  UserPic,
+  UserName,
+  TotalCars, 
+  HeaderContent 
+
+} from './styles';
 
 export const Home = () => {
   return (
@@ -15,7 +24,11 @@ export const Home = () => {
         backgroundColor="transparent"
         translucent
       />
-      <Header> 
+      <Header>
+        <UserData>
+          {/* <UserPic /> */}
+          <UserName>Philipe</UserName>
+        </UserData>
         <HeaderContent>
         <Logo 
           width={RFValue(108)}
