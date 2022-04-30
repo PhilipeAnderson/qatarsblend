@@ -9,24 +9,35 @@ export const Container = styled.View`
 export const Header = styled.View`
   width: 100%;
   height: 140px;
-  background-color: ${({ theme }) => theme.colors.main};
-  justify-content: flex-end;
+  background-color: ${({ theme }) => theme.colors.header};
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   padding: 32px 24px;
 `;
 
 export const UserData = styled.View`
-  width: 33%;
-  height: 100px;
-  background-color: yellow;
+  width: 40%;
+  height: 80px;
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 `;
 
 export const UserPic = styled.Image`
+  width: 80px;
+  height: 80px;
+  margin-top: 16px;
+  border-radius: 10px;
 
 `;
 
 export const UserName = styled.Text`
-  color: #fff;
-  font-size: 22px;
+  color: ${({ theme }) => theme.colors.shape};
+  font-size: 20px;
+  margin-top: 16px;
+  margin-left: 5px;
 `;
 
 

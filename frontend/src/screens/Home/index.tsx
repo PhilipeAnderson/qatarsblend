@@ -26,17 +26,17 @@ export const Home = () => {
       />
       <Header>
         <UserData>
-          {/* <UserPic /> */}
-          <UserName>Philipe</UserName>
+          <UserPic source={{ uri: 'https://avatars.githubusercontent.com/u/18056309?v=4'}} />
+          <UserName>Hy, {'\n'}Philipe{'\n'}Anderson</UserName>
         </UserData>
         <HeaderContent>
-        <Logo 
-          width={RFValue(108)}
-          height={RFValue(12)}
-        />
-        <TotalCars>
-          Total 12 Cars
-        </TotalCars>
+          <Logo 
+            width={RFValue(108)}
+            height={RFValue(12)}
+          />
+          <TotalCars>
+            Total 12 Cars
+          </TotalCars>
         </HeaderContent>
       </Header>
 
