@@ -19,6 +19,7 @@ export const Header = styled.View`
 export const UserData = styled.View`
   width: 40%;
   height: 80px;
+  margin-top: 10px;
   
   align-items: center;
   justify-content: center;
@@ -36,18 +37,18 @@ export const UserPic = styled.Image`
 export const UserName = styled.Text`
   color: ${({ theme }) => theme.colors.shape};
   font-size: 20px;
-  margin-top: 16px;
+  margin-top: 48px;
   margin-left: 5px;
 `;
 
 
 export const HeaderContent = styled.View`
-  align-items: flex-end;
-  justify-content: space-between;
+  margin-top: 36px;
+  justify-content: center;
 `;
 
-export const TotalCars = styled.Text`
-  font-size: ${RFValue(15)}px;
-  margin-top: 25px;
+export const ExtraInfo = styled.Text`
+  font-size: ${RFValue(16)}px;
+  margin-top: 20px;
   color: ${({ theme }) =>  theme.colors.shape}
 `;

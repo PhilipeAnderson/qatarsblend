@@ -5,13 +5,15 @@ import { RFValue } from 'react-native-responsive-fontsize';
 import Logo from '../../assets/logo.svg';
 import { Card } from '../../components/Card';
 
+import { Text } from 'react-native'
+
 import { 
   Container, 
   Header, 
   UserData,
   UserPic,
   UserName,
-  TotalCars, 
+  ExtraInfo, 
   HeaderContent 
 
 } from './styles';
@@ -27,16 +29,16 @@ export const Home = () => {
       <Header>
         <UserData>
           <UserPic source={{ uri: 'https://avatars.githubusercontent.com/u/18056309?v=4'}} />
-          <UserName>Hy, {'\n'}Philipe{'\n'}Anderson</UserName>
+          <UserName>Hy, {'\n'}Philipe</UserName>
         </UserData>
         <HeaderContent>
           <Logo 
             width={RFValue(108)}
             height={RFValue(12)}
           />
-          <TotalCars>
-            Total 12 Cars
-          </TotalCars>
+          <ExtraInfo>
+            Cars next you <Text style={{ color: '#00FF07'}}>12</Text>
+          </ExtraInfo>
         </HeaderContent>
       </Header>
 
