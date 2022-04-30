@@ -1,6 +1,9 @@
 import React from 'react';
+
 import GasolineSVG from '../../assets/gasoline.svg';
-import RS5CoupePNG from '../../assets/cars/rs5coupe.png';
+import ForceSVG from '../../assets/force.svg';
+import PeopleSVG from '../../assets/people.svg';
+
 
 import { 
   Container, 
@@ -17,6 +20,7 @@ import {
 export const Card = () => {
   return (
     <Container>
+      
       <ContentInfo>
         <Brand> AUDI </Brand>
         <Name> RS 5 Coupe </Name>
@@ -26,8 +30,9 @@ export const Card = () => {
       <ContentCar source={{ uri: 'https://freepngimg.com/thumb/audi/35227-5-audi-rs5-red.png' }} />
       <Type>  
         <GasolineSVG />
+        <ForceSVG />
+        <PeopleSVG />
       </Type>
-      
     </Container>
   );
 };

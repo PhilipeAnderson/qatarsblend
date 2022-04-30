@@ -6,7 +6,7 @@ export const Container = styled.View`
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  margin: 14px auto;
+  margin: 4px auto;
   background-color: ${({ theme }) => theme.colors.backgroundPrimary};
 
   align-items: center;
@@ -15,7 +15,7 @@ export const Container = styled.View`
 `;
 
 export const ContentInfo = styled.View`
-  width: 150px;
+  width: 120px;
   height: 100px;
 `;
 
@@ -28,7 +28,7 @@ export const Brand = styled.Text`
 
 export const Name = styled.Text`
   color: ${({ theme }) => theme.colors.title};
-  font-size: 22px;
+  font-size: 20px;
 `;
 
 export const Daily = styled.Text`
@@ -38,13 +38,15 @@ export const Daily = styled.Text`
 
 export const Value = styled.Text`
   color: ${({ theme }) => theme.colors.main};
-  font-size: 20px;
+  font-size: 18px;
 `;
 
 export const Type = styled.View`
-  position: absolute;
-  margin-bottom: 30%;
-  margin-left: 130px;
+  width: 30px;
+  height: 100px;
+  padding: 2px 0;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const ContentCar = styled.Image`
