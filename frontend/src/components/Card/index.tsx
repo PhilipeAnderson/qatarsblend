@@ -17,6 +17,18 @@ import {
 
 } from './styles';
 
+interface CarProps {
+  brand: string,
+  name: string,
+  daily: string,
+  value: number,
+  thumbnail: string
+}
+
+interface Props {
+  data: CarProps
+}
+
 export const Card = () => {
   return (
     <Container>
